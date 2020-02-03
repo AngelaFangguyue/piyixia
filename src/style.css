@@ -257,9 +257,9 @@ body {
     transform: translateX(100px);
   }
 } */
-/*.nose:hover {
+.nose:hover {
   animation: wave 230ms infinite linear;
-}*/
+}
 @keyframes wave {
   0% {
     transform: rotate(0);

@@ -114,24 +114,6 @@ let string = `/*这个小demo是展示一只皮卡丘的制作过程*/
 .face,.face img{
   display:block;
 }
-/*最后添加一个小动画wave,鼠标经过鼻子的时候，鼻子会动哦*/
-@keyframes wave {
-  0% {
-    transform: rotate(0);
-  }
-  33% {
-    transform: rotate(5deg);
-  }
-  66% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotateY(0);
-  }
-}
-  .nose:hover {
-    animation: wave 230ms infinite linear;
-  }
 }`;
 let desc = document.querySelector(".desc");
 let wre_sty = document.querySelector(".wre_sty");
